@@ -186,6 +186,11 @@ header {
   /* Gantikan property display ke none */
   display: none;
 }
+.gallery-item {
+  background-image: url(Coffee\ background.png);
+  border-radius: 10px;
+  color: rgba(249, 251, 254, 1);
+}
 
 .lesson-wrapper {
   padding-bottom: 80px;
