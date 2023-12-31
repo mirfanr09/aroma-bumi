@@ -1,0 +1,518 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+.footer {
+  background-color: rgba(20, 54, 66, 1); /* Dark Teal color */
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .logo-section,
+.footer .link-section {
+  padding: 0 15px;
+}
+
+.footer .logo-section {
+  flex: 1; /* Adjust as per requirement */
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo-section img {
+  margin: 0 auto;
+}
+
+.footer .link-section {
+  flex: 3; /* Adjust as per requirement */
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .link-section div {
+  display: flex;
+  flex-direction: column;
+}
+.subfooter {
+  color: rgba(236, 154, 41, 1);
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+span {
+  color: rgba(236, 154, 41, 1);
+}
+section {
+  margin-top: 4rem;
+  text-align: center;
+}
+.ask-us-paragraf {
+  color: rgba(20, 54, 66, 1);
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(coffeeheader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  color: rgba(249, 251, 254, 1);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: rgba(249, 251, 254, 1);
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  color: rgba(249, 251, 254, 1);
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.bg-header {
+  background-image: rgba(20, 54, 66, 0.7);
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(20, 54, 66, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 212px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 10rem;
+  text-align: center;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.section-title {
+  position: relative;
+  font-size: 48px;
+  color: rgba(15, 139, 141, 1);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.image-about {
+  width: 22rem;
+  border-radius: 0.5rem;
+  height: 22rem;
+  margin-top: 4rem;
+}
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.image-box {
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+.text-box {
+  flex-basis: 60%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.text-box h2 {
+  color: rgba(15, 139, 141, 1);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.right-title {
+  position: relative;
+  text-align: center;
+  color: rgba(15, 139, 141, 1);
+}
+
+.right-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 0.18rem;
+  background-color: rgba(236, 154, 41, 1);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text-box p {
+  color: rgba(20, 54, 66, 1);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.left-image-box {
+  width: 30%;
+  height: auto;
+}
+.left-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 0.18rem;
+  background-color: rgba(236, 154, 41, 1);
+  width: 50%;
+  margin: 0 auto;
+}
+.left-title {
+  position: relative;
+}
+.left-image-box {
+  margin-left: 1rem;
+}
+.button-section {
+  background-color: rgba(168, 32, 26, 1);
+  border-radius: 0.8rem;
+  color: rgba(249, 251, 254, 1);
+  width: 16.5rem;
+  height: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+.image-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 4rem;
+  width: 100%;
+  border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* This will cover the area, potentially cropping the image */
+}
+
+/* Image container for holding the aspect ratio */
+.image-container::before {
+  content: "";
+  display: block;
+  padding-top: 66.66%; /* 2:3 aspect ratio */
+  width: 100%;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+.gallery-item {
+  width: calc(33.333% - 10px); /* subtract the total margin size (5px*2) */
+  margin: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+  width: 100%;
+  display: block; /* remove extra space below the image */
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+/* RESPONSIVE */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .container,
+  .container-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box,
+  .text-box {
+    width: 100%; /* Adjust the width to your preference */
+    margin: 10px 0; /* Add some space between stacked items */
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphone */
+@media all and (max-width: 670px) {
+  .menu-icon {
+    /* Gantikan property display ke none */
+    display: block !important;
+  }
+  .lesson {
+    width: 100%;
+  }
+  header {
+    background-color: rgba(20, 54, 66, 0.7);
+    position: fixed;
+  }
+
+  footer {
+    text-align: center;
+  }
+  .image-container {
+    margin-top: 2rem; /* Smaller top margin for mobile */
+  }
+  .image-container::before {
+    padding-top: 100%; /* 1:1 aspect ratio for mobile */
+  }
+
+  .btn,
+  .button-section {
+    width: 90%; /* Full width buttons for mobile */
+    margin: 10px auto; /* Centering buttons */
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    padding: 130px 0; /* Adjust padding for smaller screens */
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .header-right,
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo {
+    width: 10rem; /* Adjust logo size for mobile */
+    margin-top: 12px; /* Adjust top margin for logo */
+  }
+  .gallery-item {
+    flex: 1 1 100%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .logo-section,
+  .footer .link-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .link-section {
+    margin-top: 20px;
+  }
+}

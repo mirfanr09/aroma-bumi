@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Kuliah</title>
+    <link rel="stylesheet" href="styleproduct.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+  </head>
+  <style></style>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="/index.html"><img class="logo" src="logowhite.png" /></a>
+        </div>
+        <!-- Tambahkan ikon menu di sini -->
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="/products.html">Products</a>
+          <a href="#">Store</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </header>
+    <br />
+    <br />
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="/submit-your-form-endpoint" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone (optional):</label>
+        <input type="number" id="phone" name="phone" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <br />
+    <br />
+    <footer class="footer">
+      <div class="logo-section">
+        <a href="/index.html"
+          ><img src="logowhite.png" alt="Aroma Bumi Logo"
+        /></a>
+      </div>
+      <div class="link-section">
+        <div>
+          <strong class="subfooter">Products</strong>
+          <a href="#">Coffee Based</a>
+          <a href="#">Non-Coffee</a>
+          <a href="#">Tea Based</a>
+        </div>
+        <div>
+          <strong class="subfooter">Store</strong>
+          <a href="#">Location</a>
+        </div>
+        <div>
+          <strong class="subfooter">Contact</strong>
+          <a href="#">Customer Service</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
